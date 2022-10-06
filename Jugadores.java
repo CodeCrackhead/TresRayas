@@ -4,14 +4,14 @@ package JuegoCompleto;
 public class Jugadores {
     private String nombre;
     private String Asociacion_profesional;
-    private int años;
+    private int anos;
     private boolean turno=false;
     private boolean ganadorAzar = false;
     private boolean ganadorTresRaya = false;
   
-    public Jugadores(String nombre, int años, String asociacion_profesional) {
+    public Jugadores(String nombre, int anos, String asociacion_profesional) {
         this.nombre = nombre;
-        this.años = años;
+        this.anos = anos;
         this.Asociacion_profesional = asociacion_profesional;
     }
 
@@ -23,8 +23,8 @@ public class Jugadores {
         return Asociacion_profesional;
     }
 
-    public int getAños() {
-        return años;
+    public int getAnos() {
+        return anos;
     }
 
     public void setNombre(String nombre) {
@@ -35,8 +35,8 @@ public class Jugadores {
         this.Asociacion_profesional = Asociacion_profesional;
     }
 
-    public void setAños(int años) {
-        this.años = años;
+    public void setAnos(int anos) {
+        this.anos = anos;
     }
 
     public void setTurno(boolean turno) {
